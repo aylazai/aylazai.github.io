@@ -1,1 +1,0 @@
-# aylazai.github.io

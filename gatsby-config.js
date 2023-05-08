@@ -10,7 +10,7 @@ module.exports = {
     description: "Software Engineer from Canada.",
 
     // Optional: Twitter account handle
-    // author: `@rfitzio`,
+    author: `https://drive.google.com/file/d/11XWX8quH6D7NJotEEWfuGoov1Co2dfmd/view?usp=sharing`,
     // Optional: Github account URL
     github: `https://github.com/aylazai`,
     // Optional: LinkedIn account URL
@@ -20,37 +20,32 @@ module.exports = {
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
-        name: 'Web3 Crowdfunding Application (Kickstarter)',
+        name: 'Summize',
+        description: "Simplify your reading with Summize, an open-source article summarizer that transforms lengthy articles into clear concise summaries using using OpenAI's GPT model.",
+        link: 'https://jade-travesseiro-76dd55.netlify.app/',
+      },
+      {
+        name: 'CrowdFunding Web 3.0 App (Kickstarter)',
         description: 'A decentralized application built on the Ethereum blockchain that allows users to create, view, and donate to crowdfunding campaigns directly through the blockchain.',
         link: 'https://roaring-basbousa-6b5bbf.netlify.app/',
       },
       {
-        name: 'Sumz',
-        description: "A web application that allows users to summarize articles using OpenAI's GPT model. It is built using ReactJS and Vite, and features a responsive and visually appealing UI/UX with glass morphism effects created using Tailwind CSS.",
-        link: 'https://jade-travesseiro-76dd55.netlify.app/',
-      },
-      {
-        name: 'Stock Trend Prediction WebApp',
-        description:'a Python-based web application that predicts stock trends using a multi-layer LSTM recurrent neural network.',
+        name: 'Stock Trend Prediction Web App',
+        description:'A Python-based web application that predicts stock trends using a multi-layer LSTM recurrent neural network.',
         link: 'https://github.com/aylazai/Stock-Recommendation-Engine',
       },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: 'Acme Corp',
-        description: 'Full-Stack Developer, February 2020 - Present',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Acrylic Robotics | Backend Software Engineer ',
+        description: "January 2023 - April 2023",
+        link: 'https://acrylicrobotics.ca/',
       },
       {
-        name: 'Globex Corp',
-        description: 'Full-Stack Developer, December 2017 - February 2020',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
-      },
-      {
-        name: 'Hooli',
-        description: 'Full-Stack Developer, May 2015 - December 2017',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Quanergy | Software Developer',
+        description: 'May 2022 - August 2022',
+        link: 'https://quanergy.com/',
       },
     ],
     // Optional: List your skills, they must have `name` and `description`.
@@ -58,16 +53,18 @@ module.exports = {
       {
         name: 'Languages & Frameworks',
         description:
-          'JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP',
+          'C, C++, JavaScript (ES6+), Node.js, React, Tailwind CSS, Solidity, Python',
       },
       {
-        name: 'Databases',
-        description: 'MongoDB, PostreSQL, MySQL',
+        name: 'Technologies',
+        description: 'Pandas, Scikit-Learn, Matplotlib, SciPy, Keras, NumPy, MySQL, SQLite, Jenkins, AWS, Qt',
       },
+    ],
+    // Optional: List your Education, they must have `name` 
+    education: [
       {
-        name: 'Other',
-        description:
-          'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum',
+        name: 'BSE. Honours Software Engineering',
+        description: 'University of Waterloo',
       },
     ],
   },
